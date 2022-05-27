@@ -35,10 +35,10 @@ function OnImageContainerClick(e) {
         return;
     } else {
         const instance = basicLightbox.create(`
-        <img src = ${e.target.dataset.source}/>      
-        `)
+        <img src = '${e.target.dataset.source}'/>      
+        `);
         instance.show();
     }
-       
 };
+
 
